@@ -1,0 +1,173 @@
+body {
+    margin-bottom: 60px;
+    margin-left: 120px;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+body {
+    /* font-family: Georgia,"Times New Roman",Times,serif; */
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.quote {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #333333;
+    /* text-align: center; */
+    width: 760px;
+    
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.quote span.text {
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    font-style: italic;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+.quote small.author {
+    font-weight: bold;
+    color: #3677E8;
+}
+
+.quote-line {
+    border: none;
+    height: 3px;
+    background-color: blue;
+    width: 94%;
+    margin-top: -1px;
+}
+
+.tag {
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    background-color: #7CA3E6;
+    font-family: sans-serif;
+}
+
+.quote .tags {
+    margin-top: 10px;
+}
+
+a {
+    color: #4582ec;
+    text-decoration: none;
+    
+}
+
+.header-box {
+    padding-bottom: 40px;
+}
+
+element.style {
+    text-decoration: none;
+}
+
+h1, .h1 {
+    font-size: 41px;
+   
+}
+
+.row {
+    margin-left: 10px;
+    margin-right: 160px;
+   
+    
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.pager {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 22px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.pager li {
+    display: inline;
+}
+
+.pager .next>a, .pager .next>span {
+    float: right;
+}
+
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+}
+
+.disabled {
+    color: #333333;
+    cursor:not-allowed;
+}
+
+.tags-box {
+    position: absolute;
+    top: 0px;
+    left: 850px;
+}
+
+.pager{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input::placeholder {
+    color: #6c757d;
+    font-size: 14px;
+    font-style: italic;
+    width: 600px;
+}
+
+.custom-border {
+    border: 2px solid blue;
+    width: 500px; /* Ширина поля ввода */
+}
+
+
