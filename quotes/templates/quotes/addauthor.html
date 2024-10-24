@@ -4,6 +4,7 @@
 
 <form method="POST" action="{% url 'quotes:addauthor' %}">
     {% csrf_token %}
+    <h2>Add Author</h2><br>
     <div style="padding: 10px">
         <label>Enter the author name:
             {{form.fullname}}

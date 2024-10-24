@@ -4,15 +4,19 @@
 
 <form method="POST" action="{% url 'quotes:addtag' %}">
     {% csrf_token %}
-    <div style="padding: 10px">
-        <label>Enter the tag name:
-            {{form.name}}
-        </label>
-        <span>{{ form.errors.name }}</span>
-    </div>
-    <div class="grid">
-        <button type="submit">Submit</button>
-        <button type="reset" class="secondary">Reset</button>
+    <div>
+        <div style="margin-left: 28px;">
+            <h2 class="mb-3">Add Tag</h2>
+            <label>Enter the tag name:
+                {{form.name}}
+            </label>
+            <span>{{ form.errors.name }}</span>
+        </div>
+        <br>
+        <div class="grid" style="margin-left: 28px;">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-danger"" style="margin-left: 350px;">Reset</button>
+        </div>
     </div>
 </form>
 

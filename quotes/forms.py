@@ -4,7 +4,9 @@ from .models import Tag, Author, Quote
 
 class TagForm(ModelForm):
 
-    name = CharField(min_length=3, max_length=25, required=True, widget=TextInput())
+    name = CharField(min_length=3,
+                    max_length=50, required=True,
+                    widget=TextInput(attrs={"class": "form-control custom-border", "placeholder": "Enter a tag"}))
     
     class Meta:
         model = Tag
